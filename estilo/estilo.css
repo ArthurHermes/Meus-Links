@@ -6,20 +6,42 @@
 }
 :root{
     --cor01: rgba(255, 255, 255, 0.568);
-    --cor02: rgba(128, 128, 128, 0.575);
+    --cor02: rgba(104, 103, 103, 0.493);
+    --fundo: url(../imagens/fundo-1.jpg);
+    --fonte: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url(../imagens/fundo-1.jpg);
+    background-image: var(--fundo);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 h1{
     font-size: 2em;
     text-align: center;
     color: white;
 }
+section{
 
-section#links{
     text-align: center;
-    color:var(--cor01);
+    font-family: url(--fonte);
+    border-radius: 20px;
+    margin: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+}
+p#a{
+    background-color: var(--cor02);
+    border-radius: 50px;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
 }
