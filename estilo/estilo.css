@@ -7,7 +7,7 @@
 :root{
     --cor01: rgba(255, 255, 255, 0.568);
     --cor02: rgba(104, 103, 103, 0.493);
-    --fundo: url(../imagens/fundo-1.jpg);
+    --fundo: url(../imagens/fundo.jpg);
     --fonte: Arial, Helvetica, sans-serif;
 }
 body{
@@ -15,6 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+
 }
 h1{
     font-size: 2em;
@@ -30,7 +31,7 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-72%,-60%);
  
 }
 p#a{
