@@ -7,15 +7,18 @@
 :root{
     --cor01: rgba(255, 255, 255, 0.568);
     --cor02: rgba(104, 103, 103, 0.493);
+    --cor03: rgba(0, 0, 0, 0.253);
     --fundo: url(../imagens/fundo.jpg);
-    --fonte: Arial, Helvetica, sans-serif;
+    --fonte: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    font-family: var(--fonte);
 }
 body{
     background-image: var(--fundo);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-
 }
 h1{
     font-size: 2em;
@@ -34,15 +37,23 @@ section{
     transform: translate(-72%,-60%);
  
 }
-p#a{
-    background-color: var(--cor02);
+p#link{
+    background-color: rgba(255, 255, 255, 0.616);
     border-radius: 50px;
     padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.479);
 }
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
-a:hover{
-    color: darkred;
+p#link:hover{
+    transform: translate(-2px, -2px);
+    transition: transform 1s, border 1s;
+    background: black;
+}
+p > a:hover{
+    color: rgb(255, 0, 212);
 }
