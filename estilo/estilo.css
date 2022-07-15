@@ -1,0 +1,25 @@
+@charset    "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor01: rgba(255, 255, 255, 0.568);
+    --cor02: rgba(128, 128, 128, 0.575);
+}
+body{
+    background-image: url(../imagens/fundo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+section#links{
+    text-align: center;
+    color:var(--cor01);
+}
